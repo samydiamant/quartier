@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+span{
+    color:  rgba(29, 179, 29, 0.678);
+}
+/*start section header*/
+#header{
+    width: 100%;
+    height: 50vh;
+    background-color: transparent;
+    overflow: hidden;
+    background-image: url(../img/s.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-size: cover;
+    
+    opacity: 0.9;
+   
+    
+
+   
+}
+#header .all{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+#header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.39);
+    overflow: hidden;
+   
+}
+nav .nav-logo{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .nav-logo .logo {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 50%;
+    
+
+}
+nav  .nav-logo .logo img{
+    width: 100%;
+    height: 100%;
+}
+nav ul{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+} 
+nav ul li{
+   padding: 10px 40px;
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    color: white;
+}
+#header .all .titel{
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.39);
+    
+}
+#header .all .titel form{
+    width: 100%;
+    height: 50%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#header .all .titel form input{
+   
+padding: 20px 60px;
+border-radius: 0px 0 0 15px;
+outline: none;
+background: rgba(255, 254, 254, 0.678);
+color: black;
+font-size: 15px;
+border: 1px solid rgba(0, 128, 0, 0.527);
+font-weight: bolder;
+    
+}
+#header .all .titel form input::placeholder{
+   
+   
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    
+        
+    }
+#header .all .titel form button{
+    border-radius: 0 15px 0px 0;
+    background-color:  rgba(29, 179, 29, 0.678);
+    /* background:rgba(0, 128, 0, 0.527); */
+   padding: 20px 40px;
+   font-size: 15px;
+   outline: none;
+   border: 1px solid rgba(0, 128, 0, 0.527);
+   font-weight: bolder;
+   transition: 1s;
+   cursor: pointer;
+        
+    }
+    #header .all .titel form button:hover{
+        background:rgba(0, 128, 0, 0.527);
+        padding-right: 50px;
+        font-size: 20px;
+        transition: 0.4s;
+       
+       
+            
+        }
+.all .titel h1{
+width: 100%;
+height: 50%;
+
+color: white;
+font-size: 7vw;
+text-align: center;
+}
+/*end of section header*/
+/*start section new*/
+
+#new{
+    width: 100%;
+    height: auto;
+    /* background-color: transparent; */
+    background-color: rgba(0, 0, 0, 0.158);
+    overflow: hidden;
+    padding: 4%;
+
+}
+#new h1{
+    font-size: 4vh;
+    width: 100%;
+   
+    text-align: center;
+   
+    color: black;
+    margin-bottom: 2%;
+}
+#new .all-new{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.212);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    padding: 5%;
+}
+.all-new .cadre-new{
+    width: 300px;
+    height: 280px;
+    border:none;
+    border-radius: 25px 25px 5px 5px;
+    background-color: rgba(0, 0, 0, 0.185);
+    overflow: hidden;
+    margin: 1%;
+    padding: 1%;
+    transition: 0.7s;
+}
+.all-new .cadre-new:hover{
+    background:rgba(0, 128, 0, 0.527);
+    padding: 0;
+ 
+    cursor: pointer;
+   transition: 0.5s;
+}
+.cadre-new .cadre-img{
+    width: 100%;
+    height: 70%;
+    overflow: hidden;
+    outline: none;
+    border: none;
+    border-radius: 25px 25px 0px 0px;
+}
+.cadre-img img{
+    width: 100%;
+    height: 100%;
+}
+.cadre-new .para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    
+}
+#new .all-new .cadre-new .para h1{
+    font-size: 3vh;
+    text-align: center;
+   
+    
+}
+
+
+
+/*end of section new*/
+
+/*start section continer*/
+#continer{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    overflow: auto;
+   
+}
+#continer h1{
+    font-size: 4vh;
+    width: 100%;
+    
+    padding: 2%;
+    text-align: center;
+    background-color: rgba(76, 201, 65, 0.342);
+   
+    color: black;
+    margin-bottom: 2%;
+}
+#continer .all-cont{
+    width: 100%;
+    height: 100%;
+    /* background:rgba(0, 128, 0, 0.527); */
+    border-radius: 25px 25px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+
+}
+#continer .all-cont form{
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+
+
+.all-cont .cadre-bout a{
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.all-cont .cadre{
+    width: 500px;
+    height: 600px;
+    border-radius: 5px 5px 0 0 ;
+    overflow: hidden;
+    background:rgba(255, 255, 255, 0.685);
+   
+    transition: 0.9s;
+    margin: 2%;
+  
+}
+/* .all-cont .cadre:hover{
+    width: 450px;
+    height: 520px;
+    padding: 0%;
+    transition: 0.9s;
+} */
+.cadre .cadre-bout{ 
+    cursor: pointer;
+       border-radius: 5px 5px 0 0 ;
+    width: 100%;
+    height: 80%;
+    overflow: hidden;
+}
+.cadre-bout img{
+    width: 100%;
+    height: 100%;
+}
+.cadre .cadre-para{
+    padding: 2%;
+    width: 100%;
+    height: 20%;
+    overflow: hidden;
+}
+.cadre-para .btn1{
+   width: 100%;
+   height: auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#continer .all-cont .cadre .cadre-para h2 , h3{
+    
+    align-items: start;
+  color: black;
+   font-size: 18px;
+
+}
+
+.cadre-para button{
+    padding: 10px 40Px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:    rgba(29, 179, 29, 0.678);
+    border: none;
+    outline: none;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.cadre-para  .btn{
+   
+    cursor: pointer;
+    border-radius: 5px;
+    background-color:   transparent;
+    border: none;
+    outline: none;
+
+}
+.cadre-para  .btn i{
+    font-size: 25px;
+    color:    rgba(15, 188, 231, 0.678);
+
+}
+
+
+
+
+/*end of section continer*/
